@@ -1,29 +1,3 @@
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your role: <select name="role[]" multiple>
-      <option value="manager">Recruiter/hiring manager</option>
-      <option value="client">Potential client</option>
-      <option value="peer">Fellow professional/peer</option>
-      <option value="student">Student/early career</option>
-      <option value="other">Other</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-
----
-
 <form class="contact-form" name="contact" method="POST" data-netlify="true">
   <label for="name">Name</label>
   <input
